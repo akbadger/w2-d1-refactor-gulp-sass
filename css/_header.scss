@@ -1,0 +1,16 @@
+header {
+    background: $backgroundImage;
+    background-size: cover;
+    background-position: 0% 50%;
+    padding: 150px;
+    margin-bottom: 30px;
+    color: $colorWhite;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px 3px $colorCharcoal;
+    font-weight: none;
+}
+
+img {
+    width: 100%;
+}

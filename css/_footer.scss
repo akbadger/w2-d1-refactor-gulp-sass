@@ -1,0 +1,14 @@
+footer {
+    background-color: $colorBlack;
+    color: $colorGray;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: $colorWhite; 
+}
+
+footer a:hover {
+    color: $colorGray;
+}

@@ -1,0 +1,98 @@
+//variables
+$colorWhite: #ffffff;
+$colorCharcoal: #1C0F13;
+$colorGray: #829399;
+$colorLightestGray: #f7f7f7;
+$colorLiteGray: #ebebeb;
+$colorBlack: #1C0F13;
+$colorMerlot: #1C0F13;
+$colorSeafoam: #829399;
+$colorBlush: #C4B1AE;
+$backgroundImage: url(https://unsplash.it/1000/?image=1079&blur);
+
+body {
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+//partials
+@import 'nav';
+@import 'header';
+@import 'grid';
+
+.column-pricing {
+    flex: 1;
+    margin: 0px 15px;
+    color: $colorWhite;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            text-align: center;
+            background-color: $colorLightestGray;
+            border: .5px solid $colorLiteGray;
+            padding: 10px;
+            font-size: 18px;
+            color: #474448;
+        }
+
+        :last-child {
+            padding: 20px;
+            border: .5px solid $colorLiteGray;
+
+            button {
+                border: 1px solid $colorLiteGray;
+                border-radius: 20px;
+                background-color: $colorWhite;
+                padding: 10px;
+                text-align: center;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+        }
+    }
+}
+
+.price-box {
+    padding: 20px 20px 20px 20px;
+
+    &.price-box-merlot {
+        background-color: $colorMerlot;
+    }
+            
+    &.price-box-seafoam {
+        background-color: $colorSeafoam;
+    }
+
+    &.price-box-blush {
+        background-color: $colorBlush;
+    }
+    
+    :first-child {
+        font-size: 60px;       
+    }
+}
+
+ .column-info {
+     flex: 6;
+     color: $colorGray;
+     line-height: 1.5;
+     font-size: 18px;
+     padding-bottom: 20px;
+     :first-child {
+        font-style: capitalize;
+        color: $colorBlack;
+        text-align: left;
+        margin-top: 30px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+     }
+}
+
+@import 'footer';
+
+

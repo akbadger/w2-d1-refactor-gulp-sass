@@ -1,0 +1,17 @@
+nav {
+    padding: 10px;
+    background: $colorWhite;
+}
+
+nav a {
+    text-decoration: none;
+    color: $colorGray;
+    margin-left: 15px;
+    margin-right: 15px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: $colorBlack;
+}
